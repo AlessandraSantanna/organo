@@ -61,7 +61,10 @@ function App() {
        nome={time.nome} 
        corPrimaria={time.corPrimaria} 
        corSecundaria={time.corSecundaria}
+       //tecnologia= {tecnologias.filter(tecnologia=>tecnologia.tipo===time.nome)}
+      //tecnologia= {tecnologias.filter(tecnologia=>tecnologia.time===time.nome)}
        tecnologia= {tecnologias.filter(tecnologia=>tecnologia.time===time.tipo)}
+
        />)}
     </div>
     
